@@ -1,0 +1,172 @@
+@media only screen and (max-width : 844px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* top side order summary*/
+
+    .header-section{
+        margin-top: 150px;
+
+    }
+
+    .main-section
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        padding: 0;
+    }
+
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        position: sticky;
+        height: 500px;
+    }
+    
+    .payment-summary-container{
+        margin-bottom: 5px;
+        column-gap: 35px;
+        row-gap: 8px;
+    }
+    
+    
+    .place-order-button{
+        padding: 10px 30px;
+    }
+    
+
+/* Bottom sectionc */
+
+    
+    
+    .left-container{
+        display: flex
+    }
+    
+    .cart-card{
+        width: inherit;
+    }
+    
+    .delivery-date{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .container, .items-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .cart-product-image{
+        border: none;
+        width: 150px;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    
+    .cart-product-details{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .product-name-css{
+        text-align: center;
+    }
+    
+    .cart-product-quantity-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .product-update-buttons{
+        width: inherit; 
+    }
+    
+    .update-css{
+        padding: 10px 10px;
+        border-radius: 6px;
+        opacity: initial;
+    }
+
+    .delivery-options{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    
+    .delivery-option{
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        column-gap: 5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .delivery-option-date{
+        font-family: Roboto;
+        font-size: 18px;
+        color: rgb(0, 118, 0);
+    }
+    
+    .total-summary{
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .message{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+
+    /* extra stuff */
+    
+    .update-save-link-invis{
+        opacity: 0;
+    }
+    
+    .mini-qty-box{
+        width: 16px;
+        padding: 2px;
+        outline: none;
+    }
+    
+    
+    .update-save-link-visible{
+        opacity: 1;
+    }
+    
+    .save-btn{
+        margin: auto 0;
+        cursor: pointer;
+        transition: text-decoration 0.16s ease;
+        color: #ff7e5f;
+        font-weight: bold;
+        font-family: Roboto;
+    }
+    
+    
+    
+    .save-btn:hover{
+        text-decoration: underline;
+    }
+    
+    
+}

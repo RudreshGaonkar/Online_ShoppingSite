@@ -1,0 +1,140 @@
+/* ==============================================================================================================================================================================================================================================================
+
+                    NavBar styles
+*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 16px 16px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+
+
+.navbar .left-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar .middle-section{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navbar .right-section{
+    display: flex;
+    max-width: 400px;
+}
+
+.navbar .right-section ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+.navbar .right-section #navigationLinks li a{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 16px;
+    transition:  color 1s ,text-decoration 1s ease-in-out;
+}
+
+.navbar .right-section #navigationLinks li a:hover{
+    color: #ff7e5f;
+    text-decoration:underline
+}
+
+
+
+.navbar .search-bar{
+    width: 300px;
+    padding: 10px 30px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar .search-bar::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.navbar .search-btn{
+    width: 50px;
+    object-fit: cover;
+    padding: 7px 10px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.search-icon{
+    height: 22px;
+}
+
+
+.sign-in-btn{
+    cursor: pointer;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: #ff7e5f;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-box{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-quantity{
+    position: absolute;
+    top: -13px;
+    right: -10px;
+    background-color: #ff7e5f;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* ==============================================================================================================================================================================================================================================================
+
+                  End Of NavBar styles
+*/

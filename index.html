@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamShop</title>
+    
+    <!-- Below code font links are from Google fonts site for separate fonts 👇 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/pcStyles/home.css">
+    <link rel="stylesheet" href="styles/pcStyles/navBar.css">
+    <link rel="stylesheet" href="styles/pcStyles/footer.css">
+    <link rel="stylesheet" href="styles/mobilestyles/home-mobile.css">
+    <link rel="stylesheet" href="styles/mobilestyles/navbar-mobile.css">
+
+</head>
+<body>
+    <div class="parent-container">
+      <nav class="navbar">
+        <div class="left-section">
+          <a  class="link" href="index.html"><img src="images/icons/store-icon.svg" alt="" class="shopIcon"></a>
+          <a  class="link" href="index.html"><span>DreamShop</span></a>
+        </div>
+
+        <div class="middle-section">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-btn">
+              <img src="images/icons/search-icon.jpg" alt="🔍" class="search-icon">
+            </button>
+        </div>
+
+        <div class="right-section">
+          <ul id="navigationLinks">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="shop.html">Shop</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li><button class="sign-in-btn js-sign-in">Sign in</button></li>
+            <div class="cart-box js-cart-box">
+              <img src="images/icons/shopping-cart.svg" alt="🛒" class="cart-icon">
+              <div class="cart-quantity js-cart-quantity"></div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="hero">
+          <h1>Welcome to DreamShop</h1>
+          <!-- <img src="image/icons/shopping_cart_checkout.svg" alt=""> -->
+          <p class="hero-content">Your one-stop shop for all your dream products</p>
+      </section>
+
+
+
+
+        <!--                  middle section               -->
+
+
+      <section class="featured-section">
+        <div class="featured-tile">
+            Featured Products
+        </div>
+        <hr>
+        <div class="featured-products js-featured-products">
+
+
+            <!-- items display -->
+
+      </section>
+
+
+        <section class="page-footer">
+          <div class="contact">
+            Connect with Us
+          </div>
+          <div class="social-links">
+            <div class="facebook"></div>
+            <div class="instagram"></div>
+            <div class="github"></div>
+            <div class="youtube"></div>
+            <div class="linkedin"></div>
+          </div>
+          <div class="licence-info-link-css">
+            <div class="copy-right-link-css">
+              Copyright © 2024 <a href="index.html">DreamShop</a>
+            </div>
+            <div class="other-info">
+              <div class="terms-link-css">
+                <a href="">Privacy policy</a>
+              </div>
+              <div class="term-link-css">
+                <a href="">Terms & condition</a>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+
+    <script src="./data/scripts/home.js" type="module"></script>
+    <script src="data/signIn.js" type="module"></script>
+</body>
+</html>

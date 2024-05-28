@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="styles/pcStyles/navBar.css">
+    <link rel="stylesheet" href="styles/pcStyles/home.css">
+    <link rel="stylesheet" href="styles/pcStyles/cart.css">
+    <link rel="stylesheet" href="styles/mobilestyles/navbar-mobile.css">
+    <link rel="stylesheet" href="styles/mobilestyles/cart-mobile.css">
+
+</head>
+<body>
+    <div class="parent-container">
+        <nav class="navbar">
+            <div class="left-section">
+                <a  class="link" href="index.html"><img src="images/icons/store-icon.svg" alt="" class="shopIcon"></a>
+                <a  class="link" href="index.html"><span>DreamShop</span></a>
+            </div>
+            <div class="middle-section">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button class="search-btn">
+                    <img src="images/icons/search-icon.jpg" alt="🔍" class="search-icon">
+                </button>
+            </div>
+            <div class="right-section">
+                <ul id="navigationLinks">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="shop.html" target="_blank">Shop</a> </li>
+                    <li> <a href="about.html">About</a> </li>
+                    <li><button class="sign-in-btn js-sign-in">Sign in</button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="header-section">
+            <div class="checkout-header">
+                Checkout(<a href="index.html" class="checkout-count js-checkout-quantity"></a>)
+            </div>
+        </section>
+
+        <div class="main-section">
+
+            <div class="left-side js-left-side">
+                <div style="font-size: 32px; font-family: Roboto; font-weight: 800; margin: 10px;text-align: center;">Review your order</div>
+                <div class="left-container js-left-container">
+                    <!-- cart items -->
+                </div>
+            </div>
+
+            <div class="right-side js-right-side">
+                <!-- payment summary -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="data/scripts/checkout.js" type="module"></script>
+    <script src="data/signIn.js" type="module"></script>
+</body>
+</html>

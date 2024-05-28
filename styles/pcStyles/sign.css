@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.formContainer{
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/background-for-website-or-background-free-vector.jpg');
+}
+
+.sign-in-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    min-height: 400px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(8px); /* Apply blur to the background */
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    z-index: 100;
+}
+
+.element-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    z-index: 100;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+button{
+    padding: 10px 10px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.icons{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.Google{
+    border: 1px solid rgb(20, 130, 255) ;
+    transition: background 0.15s ease;
+}
+
+.Google:hover{
+    background: rgb(215, 215, 215);
+}
+
+.Apple{
+    background: black;
+    color: white;
+    transition: background 0.15s ease;
+}
+.Apple:hover{
+    background: rgb(47, 47, 47);
+}
+
+.Meta{
+    background: rgb(0, 94, 255);
+    color: white;
+    transition: background 0.15s ease;
+}
+
+.Meta:hover{
+    background: rgb(37, 117, 255);
+}
